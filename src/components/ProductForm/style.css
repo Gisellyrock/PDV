@@ -1,0 +1,47 @@
+.product-container {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.product-back-green{
+  background-color: #DBEDD6;
+}
+
+.product-back-yellow{
+  background-color: #F6F2DF;
+}
+
+.product-back-red{
+  background-color: #EFDBDD;
+}
+
+.input-space{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.input-product {
+  width: 300px;
+}
+
+.input-others {
+  width: 150px;
+}
+
+.input-observation label {
+  width: 100%
+}
+
+.input {
+  height: 39px;
+}
+
+.btn-plus{
+  height: 39px;
+}
+
+
