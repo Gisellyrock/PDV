@@ -1,4 +1,7 @@
 import { Table, Button } from 'react-bootstrap';
+import { faPenToSquare, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './style.css';
 
 const ProductList = () => {
   const products = [
@@ -39,7 +42,7 @@ const ProductList = () => {
   };
 
   return (
-    <div>
+    <div className="shadow-rounded">
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -70,10 +73,10 @@ const ProductList = () => {
                   variant="primary"
                   onClick={() => handleEdit(index)}
                 >
-                  Editar
+                  <FontAwesomeIcon icon={faPenToSquare} />
                 </Button>
                 <Button variant="danger" onClick={() => handleDelete(index)}>
-                  Excluir
+                  <FontAwesomeIcon icon={faTrash} />
                 </Button>
               </td>
             </tr>

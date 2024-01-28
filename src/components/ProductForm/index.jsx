@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './style.css';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProductForm = () => {
   const [formData, setFormData] = useState({
@@ -100,8 +102,8 @@ const ProductForm = () => {
             className="form-control"
           />
         </label>
-        <button type="submit" className="btn btn-success btn-plus mt-4">
-          +
+        <button type="submit" className="btn btn-success mt-4">
+          <FontAwesomeIcon icon={faCirclePlus} />
         </button>
       </div>
     </form>

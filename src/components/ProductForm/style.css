@@ -8,6 +8,8 @@ input {
 
 .product-back-green{
   background-color: #DBEDD6;
+  border-radius: 10px 0 0 0;
+
 }
 
 .product-back-yellow{
@@ -16,6 +18,7 @@ input {
 
 .product-back-red{
   background-color: #EFDBDD;
+  border-radius: 0px 10px 0 0;
 }
 
 .input-space{

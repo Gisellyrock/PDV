@@ -22,16 +22,14 @@ export const OrderTable = () => {
 
   return (
     <div>
-      <div className="box-order">
+      <div className="box-order box-order-top">
         <p className="box-order-text">Pedido/Venda #</p>
         <p>{getCurrentDateTime()}</p>
         <hr className="box-order-divider" />
       </div>
-      <div className="box-order boder-order">
-        <p className="box-total">
-          <FontAwesomeIcon icon={faMoneyBill} className="mx-2" />
-          R$ 260,00
-        </p>
+      <div className="box-order boder-order icon-order">
+        <FontAwesomeIcon icon={faMoneyBill} className="mx-2" />
+        <p className="box-total">R$ 260,00</p>
       </div>
       <div className="box-client">
         <div>

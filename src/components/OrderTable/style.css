@@ -1,3 +1,7 @@
+.box-order-top {
+  border-radius: 10px 10px 0 0;
+}
+
 .box-order {
   background-color: #63f;
   display: flex;
@@ -16,7 +20,7 @@ margin-bottom: 0px;
 }
 
 .box-total{
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .box-client{
@@ -30,6 +34,8 @@ margin-bottom: 0px;
   align-items: center;
   padding: 5px;
   font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 10px 10px;
 }
 
 .box-order-data{
@@ -65,4 +71,8 @@ margin-bottom: 0px;
 
 .btn-order-red{
   background: #dc6765;
+}
+
+.icon-order{
+  font-size: 30px;
 }
